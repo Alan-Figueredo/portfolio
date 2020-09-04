@@ -1,0 +1,62 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: #E20000;
+}
+p{
+    color: #6A6A6A;
+}
+nav .nav-link{
+    color: #282828;
+}
+nav .active{
+    border: 1px solid;
+    border-color: #E20000;
+    border-radius: 20px;
+    margin-right: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#contacto{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#contacto main{
+    height: 73vh;
+}
+
+.iconos{
+    margin-right: 5px;
+    border-radius: 50%;
+    color: white;
+    padding: 2px;
+}
+
+.cv{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 8px 40px;
+
+}
+.cv :hover{
+    color: #282828;
+}
+.btn{
+    background-color: white;
+    border-radius: 25px;
+    padding: 8px 40px;
+    color: black;
+}
+.btn:hover{
+    background-color: #370a72;
+    color: white;
+}
+
+.vinculo-footer{
+    color: white;
+}
