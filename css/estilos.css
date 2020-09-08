@@ -10,7 +10,146 @@ p{
 nav .nav-link{
     color: #282828;
 }
+
 nav .active{
+    margin-right: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/* Footer contacto*/
+#contacto footer, #contacto footer a{
+    color: white;
+    font-weight: 100;
+}
+#contacto footer .fa-github{
+    color: white;
+    text-align: center;
+    font-size: 27px;
+}
+#contacto footer .fa-linkedin-in{
+    background-color: white;
+    color: #ff3d3d;
+    font-size: 18px;
+    text-align: center;
+    height: 29px;
+    width: 30px;
+    padding: 8px 0px 0px 0px;
+    border-radius: 80px;
+}
+#contacto footer .fa-whatsapp{
+    color: white;
+    background-color: #370a72;
+    font-size: 30px;
+    padding: 10px 19px;
+    height: 73px;
+    width: 65px;
+    border-radius: 10px 10px 0 0;
+}
+
+/*Footer proyectos*/
+
+#proyectos footer{
+    color: #E20000 !important;
+    font-weight: 100 !important;
+}
+#proyectos footer, #contacto footer a{
+    color: white;
+    font-weight: 100;
+}
+#proyectos footer .fa-github{
+    color: #E20000;
+    text-align: center;
+    font-size: 27px;
+}
+#proyectos footer .fa-linkedin-in{
+    background-color: #E20000;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    height: 28px;
+    width: 28px;
+    padding: 7px 5px 5px 5px;
+    border-radius: 80px;
+}
+#proyectos footer .fa-whatsapp{
+    color: white;
+    background-color: #370a72;
+    font-size: 30px;
+    padding: 10px 19px;
+    height: 73px;
+    width: 65px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+#proyectos{
+    background-image: url(../images/fondo-proyecto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #ff3333;
+}
+#proyectos main{
+    height: 80%vh;
+}
+#proyectos footer{
+    height: 20%vh;
+}
+#contacto{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #ff3333;
+}
+#contacto main{
+    height: 80%vh;
+}
+#contacto footer{
+    height: 20%vh;
+}
+
+#contacto input, textarea{
+    border-radius: 15px !important;
+    border: 0px !important;
+}
+
+#contacto textarea{
+    resize: none;
+}
+
+#depc-contacto{
+    text-decoration: underline;
+}
+#depc-contacto:hover{
+    color: rgb(204, 193, 193);
+}
+
+#mail-contacto{
+    text-decoration: underline;
+}
+#mail-contacto:hover{
+    color: rgb(204, 193, 193);
+}
+
+/*Footer vinculos*/
+#depc-proyectos{
+    text-decoration: underline;
+    color: #E20000;
+}
+#depc-proyectos:hover{
+    color: rgb(204, 193, 193);
+}
+
+#mail-proyectos{
+    text-decoration: underline;
+    color: #E20000;
+}
+#mail-proyectos:hover{
+    color: rgb(204, 193, 193);
+}
+
+/*Margen de barra de navegacion*/
+.bar{
     border: 1px solid;
     border-color: #E20000;
     border-radius: 20px;
@@ -18,16 +157,6 @@ nav .active{
     padding-top: 2px;
     padding-bottom: 2px;
 }
-#contacto{
-    background-image: url(../images/fondo-contacto.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#contacto main{
-    height: 73vh;
-}
-
 .iconos{
     margin-right: 5px;
     border-radius: 50%;
@@ -38,25 +167,23 @@ nav .active{
 .cv{
     background-color: red;
     color: white;
-    border: 1px solid red;
+    border: 0px;
     border-radius: 20px;
     padding: 8px 40px;
 
 }
-.cv :hover{
-    color: #282828;
+.cv:hover{
+    color: white;
+    background-color: #370a72;
 }
 .btn{
     background-color: white;
     border-radius: 25px;
     padding: 8px 40px;
     color: black;
+    font-size: 14px;
 }
 .btn:hover{
     background-color: #370a72;
-    color: white;
-}
-
-.vinculo-footer{
     color: white;
 }
