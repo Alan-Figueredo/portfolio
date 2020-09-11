@@ -89,7 +89,7 @@ nav .active{
     color: #E20000;
 }
 #depc-proyectos:hover{
-    color: rgb(204, 193, 193);
+    color: #370a72;
 }
 
 #mail-proyectos{
@@ -97,13 +97,21 @@ nav .active{
     color: #E20000;
 }
 #mail-proyectos:hover{
-    color: rgb(204, 193, 193);
+    color: #370a72;
 }
 
 /*Margen de barra de navegacion*/
 .bar{
     border: 1px solid;
     border-color: #E20000;
+    border-radius: 20px;
+    margin-right: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.bar:hover{
+    border: 1px solid;
+    border-color: white;
     border-radius: 20px;
     margin-right: 50px;
     padding-top: 2px;
@@ -223,11 +231,9 @@ nav .active:hover{
     background-color: white;
 }
 #proyectos main{
-    height: 80%vh;
+    height: 70%vh;
 }
-#proyectos footer{
-    height: 20%vh;
-}
+
 #proyectos .btn{
     background-color: #E20000;
     color: white;
@@ -235,4 +241,13 @@ nav .active:hover{
 #proyectos .btn:hover{
     background-color: #370a72;
     color: white;
+}
+#proyectos main a{
+    color: #E20000;
+}
+/*Sobre mi*/
+#sobre-mi{
+    background-image: url(../images/fondo-proyecto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
