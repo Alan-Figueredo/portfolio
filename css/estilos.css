@@ -183,7 +183,7 @@ nav .active:hover{
     padding: 20px 0 10px 0;
 }
 #proyectos .p-card{
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     text-align: justify;
     font-size: 14px;
@@ -250,4 +250,28 @@ nav .active:hover{
     background-image: url(../images/fondo-proyecto.png);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+#sobre-mi .fa-github{
+    color: #E20000;
+    text-align: center;
+    font-size: 27px;
+}
+#sobre-mi .fa-linkedin-in{
+    background-color: #E20000;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    height: 28px;
+    width: 28px;
+    padding: 7px 5px 5px 5px;
+    border-radius: 80px;
+}
+#sobre-mi .img-circle{
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: inset 5px 5px 10px 0px rgba(209, 209, 209, 0.63);
+    border-radius: 50%;
 }
