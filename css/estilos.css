@@ -47,54 +47,6 @@ nav .active{
     border-radius: 10px 10px 0 0;
 }
 
-/*Footer proyectos*/
-
-#proyectos footer{
-    color: #E20000 !important;
-    font-weight: 100 !important;
-}
-#proyectos footer, #contacto footer a{
-    color: white;
-    font-weight: 100;
-}
-#proyectos footer .fa-github{
-    color: #E20000;
-    text-align: center;
-    font-size: 27px;
-}
-#proyectos footer .fa-linkedin-in{
-    background-color: #E20000;
-    color: white;
-    font-size: 19px;
-    text-align: center;
-    height: 28px;
-    width: 28px;
-    padding: 7px 5px 5px 5px;
-    border-radius: 80px;
-}
-#proyectos footer .fa-whatsapp{
-    color: white;
-    background-color: #370a72;
-    font-size: 30px;
-    padding: 10px 19px;
-    height: 73px;
-    width: 65px;
-    border-radius: 10px 10px 0 0;
-}
-
-
-#proyectos{
-    background-image: url(../images/fondo-proyecto.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #ff3333;
-}
-#proyectos main{
-    height: 80%vh;
-}
-#proyectos footer{
-    height: 20%vh;
-}
 #contacto{
     background-image: url(../images/fondo-contacto.png);
     background-size: 100%;
@@ -157,6 +109,15 @@ nav .active{
     padding-top: 2px;
     padding-bottom: 2px;
 }
+nav .active:hover{
+    border: 0px;
+    background-color: #370a72;
+    color: white;
+    border-radius: 20px;
+    margin-right: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 .iconos{
     margin-right: 5px;
     border-radius: 50%;
@@ -184,6 +145,94 @@ nav .active{
     font-size: 14px;
 }
 .btn:hover{
+    background-color: #370a72;
+    color: white;
+}
+
+/*INicio de Proyectos*/
+
+#proyectos .card{
+    border-radius: 20px;
+    height: 530px;
+}
+#proyectos .img-fluid{
+    margin: 15px 15px 0 15px;
+    height: 177px;
+}
+#proyectos .color-gradiente{
+    background: rgba(204,35,16,1);
+    background: -moz-linear-gradient(left, rgba(204,35,16,1) 0%, rgba(246,41,12,1) 70%, rgba(222,44,13,1) 87%, rgba(222,44,13,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(204,35,16,1)), color-stop(70%, rgba(246,41,12,1)), color-stop(87%, rgba(222,44,13,1)), color-stop(100%, rgba(222,44,13,1)));
+    background: -webkit-linear-gradient(left, rgba(204,35,16,1) 0%, rgba(246,41,12,1) 70%, rgba(222,44,13,1) 87%, rgba(222,44,13,1) 100%);
+    background: -o-linear-gradient(left, rgba(204,35,16,1) 0%, rgba(246,41,12,1) 70%, rgba(222,44,13,1) 87%, rgba(222,44,13,1) 100%);
+    background: -ms-linear-gradient(left, rgba(204,35,16,1) 0%, rgba(246,41,12,1) 70%, rgba(222,44,13,1) 87%, rgba(222,44,13,1) 100%);
+    background: linear-gradient(to right, rgba(204,35,16,1) 0%, rgba(246,41,12,1) 70%, rgba(222,44,13,1) 87%, rgba(222,44,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc2310', endColorstr='#de2c0d', GradientType=1 );
+}
+#proyectos h3{
+    color: white;
+    font-size: 16px;
+    padding: 20px 0 10px 0;
+}
+#proyectos .p-card{
+    font-weight: 600;
+    color: black;
+    text-align: justify;
+    font-size: 14px;
+}
+/*Footer proyectos*/
+
+#proyectos footer{
+    color: #E20000 !important;
+    font-weight: 100 !important;
+}
+#proyectos footer, #contacto footer a{
+    color: white;
+    font-weight: 100;
+}
+#proyectos footer .fa-github{
+    color: #E20000;
+    text-align: center;
+    font-size: 27px;
+}
+#proyectos footer .fa-linkedin-in{
+    background-color: #E20000;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    height: 28px;
+    width: 28px;
+    padding: 7px 5px 5px 5px;
+    border-radius: 80px;
+}
+#proyectos footer .fa-whatsapp{
+    color: white;
+    background-color: #370a72;
+    font-size: 30px;
+    padding: 10px 19px;
+    height: 73px;
+    width: 65px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+#proyectos{
+    background-image: url(../images/fondo-proyecto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#proyectos main{
+    height: 80%vh;
+}
+#proyectos footer{
+    height: 20%vh;
+}
+#proyectos .btn{
+    background-color: #E20000;
+    color: white;
+}
+#proyectos .btn:hover{
     background-color: #370a72;
     color: white;
 }
